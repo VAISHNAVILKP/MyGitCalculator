@@ -18,5 +18,10 @@ public class CalulatorImpl implements Calculator{
 		int mul = p*q;
 		return mul;
 	}
+	
+	public int div(int c, int d) {
+		int div = c/d;
+		return div;
+	}
 
 }

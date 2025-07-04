@@ -8,5 +8,8 @@ package Interface;
 	 public int sub (int x, int y);
 	 
 	 public int mul(int p,int q);
+	 
+	 public int div (int c, int d);
+	 
 	}
 

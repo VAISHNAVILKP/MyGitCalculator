@@ -16,6 +16,11 @@ public class Main {
 		Calculator c2 = new CalulatorImpl(); 
 		int mul = c2.mul(10,8);
 		System.out.println(mul);
+		
+		Calculator c3 = new CalulatorImpl();
+		int div = c3.div(10, 5);
+		System.out.println(div);
+		
 	}
 
 }
