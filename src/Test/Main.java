@@ -8,6 +8,11 @@ public class Main {
 		Calculator c = new CalulatorImpl();
 		int sum = c.sum(12, 12);
 		System.out.println(sum);
+		
+		Calculator c1 = new CalulatorImpl(); 
+		int sub = c1.sub(10,8);
+		System.out.println(sub);
+		
 
 	}
 

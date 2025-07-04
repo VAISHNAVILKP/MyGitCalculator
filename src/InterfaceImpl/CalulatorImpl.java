@@ -7,7 +7,11 @@ public class CalulatorImpl implements Calculator{
 	public int sum(int a, int b) {
 		int sum = a+b;
 		return sum;
-		
+		}
+	
+	public int sub(int x, int y) {
+		int sub = x-y;
+		return sub;
 	}
 
 }
