@@ -13,7 +13,9 @@ public class Main {
 		int sub = c1.sub(10,8);
 		System.out.println(sub);
 		
-
+		Calculator c2 = new CalulatorImpl(); 
+		int mul = c2.mul(10,8);
+		System.out.println(mul);
 	}
 
 }

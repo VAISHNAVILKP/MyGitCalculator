@@ -13,5 +13,10 @@ public class CalulatorImpl implements Calculator{
 		int sub = x-y;
 		return sub;
 	}
+	
+	public int mul(int p,int q) {
+		int mul = p*q;
+		return mul;
+	}
 
 }
