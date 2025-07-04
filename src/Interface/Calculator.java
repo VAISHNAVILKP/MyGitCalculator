@@ -3,12 +3,13 @@ package Interface;
 //public interface Calculator {
 	public interface Calculator {
 		
-		public int mul(int x, int y) {
-			return mul;
+		
+		public default int mul(int x, int y) {
+			return x*y;
 		}
 		
-		public int div(int c, int d) {
-			return div;
+		public default int div(int c, int d) {
+			return c/d;
 		}
 		
 	}
